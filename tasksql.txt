@@ -1,0 +1,5 @@
+A.
+
+1. select * from goals where beauty > 0.9 or beauty < 0.1
+2. select * from players as p inner join goals as g on
+g.player_id = p.player_id where p.team = "FCB" having count(g.goal_id) > 0
